@@ -17,7 +17,7 @@ The development pipeline is structured into the following stages:
 - Models Evaluated: Random Forest, Extra Trees, XGBoost, LightGBM, CatBoost, KNN, and MLP.
 - Non-Linear Stacking: Meta-model powered by XGBoost.
 - Feature Selection: SHAP importance ranking.
-- Validation: 10-Fold Cross-Validation (CV) and an 80/20 train/test split.
+- Validation: 10-Fold Cross-Validation and an 80/20 train/test split.
 
 ## Results
 
@@ -25,7 +25,7 @@ The models were evaluated under two main approaches:
 
 1. Regression: Assessed using R-squared, MAE, and RMSE metrics.
 2. Classification: Accuracy and Weighted F1-Score (Low, Medium, and High classes).
-3. Feature Subsets: Comparative tests performed across different subsets including All, Top 50, Top 25, Top 10, and Top 5 features.
+Feature Subsets: Comparative tests performed across different subsets including All, Top 50, Top 25, Top 10, and Top 5 features.
 
 ## Technologies and Tools
 

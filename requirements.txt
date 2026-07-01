@@ -1,0 +1,14 @@
+numpy
+pandas
+scikit-learn
+scipy
+matplotlib
+seaborn
+shap
+joblib
+xgboost
+lightgbm
+catboost
+rasterio
+pyproj
+earthengine-api
